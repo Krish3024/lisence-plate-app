@@ -3,8 +3,6 @@
 import { motion } from "framer-motion"
 import { Zap, Shield, Clock, ArrowRight, Sparkles } from "lucide-react"
 import Link from "next/link";
-import { your } from './../.next/static/chunks/node_modules_0008d09a._';
-
 
 export default function HeroSection() {
   const features = [
