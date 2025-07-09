@@ -51,6 +51,7 @@ export default function Live() {
 
   const checkLicensePlate = async (plate) => {
     try {
+      
       const response = await fetch("/api/matchPlate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
